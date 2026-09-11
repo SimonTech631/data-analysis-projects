@@ -32,4 +32,4 @@ sns.countplot(data=titan, x='Sex', hue='Survived')
 #4. plot 3: Correlation Heatmap
 plt.title('Correlation Heatmap')
 plt.figure(figsize=(10,8))
-sns.heatmap(titan.corr(numeric_only=True), annot=True, camp='coolwarm')
+sns.heatmap(titan.corr(numeric_only=True), annot=False, camp='coolwarm')
